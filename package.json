@@ -1,0 +1,19 @@
+{
+  "name": "nodeRunner",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.5"
+  },
+  "dependencies": {
+    "electron-config": "^0.2.1",
+    "electron-is-dev": "^0.1.2",
+    "electron-json-storage": "^3.0.2",
+    "electron-log": "^2.0.2",
+    "moment": "^2.18.1"
+  }
+}

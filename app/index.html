@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Keep track of all the processes</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="spa">
+    <div class="spa__viewport">
+      <section>
+        <h1 id="stop">Stop processes</h1>
+        <div class="add">
+          <input type="text" class="form--input" id="form-label" placeholder="Label" />
+          <input type="text" class="form--input" id="form-command" placeholder="Command" />
+          <button id="form-save" class="add__save">Add</button>
+        </div>
+      </section>
+      <div id="processes"></div>
+    </div>
+
+    <script>window.$ = window.jQuery = require('./js/lib/jquery.min.js')</script>
+    <script src='./js/utils.js'></script>
+    <script src='./js/global.js'></script>
+  </body>
+</html>
